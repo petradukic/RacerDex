@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>RacerDex - Teams</title>
+        <link rel = "icon" href="../public/favicon.ico">
+        <link rel = "stylesheet" href = "../styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                <a href = "../index.html"><img id = "logo" src = "../src/assets/RacerDex_logo.png"></a>
+                <nav class = "nav">
+                    <a href = "../index.html">Home</a>
+                    <a href = "drivers.html">Drivers</a>
+                    <a class = "active" href = "">Teams</a>
+                    <a href = "about.html">About</a>
+                </nav>
+            </div>
+        </header>
+        <main class = "main">
+            <table class = "teams-table">
+                <thead>
+                    <tr>
+                        <th>Teams</th>
+                        <th>Name</th>
+                        <th>Team Principal</th>
+                        <th>Livery</th>
+                    </tr>
+                </thead>
+                <tbody id = "teams-body">
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/mclaren.png" alt="McLaren"></td>
+                        <td class="team-name">McLaren</td>
+                        <td>Andrea Stella</td>
+                        <td><img class="team-livery" src="../src/images/cars/mclaren.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/redbull.png" alt="Red Bull Racing"></td>
+                        <td class="team-name">Red Bull Racing</td>
+                        <td>Laurent Mekies</td>
+                        <td><img class="team-livery" src="../src/images/cars/redbull.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/mercedes_amg_petronas.png" alt="Mercedes"></td>
+                        <td class="team-name">Mercedes</td>
+                        <td>Toto Wolff</td>
+                        <td><img class="team-livery" src="../src/images/cars/mercedes.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/ferrari.png" alt="Ferrari"></td>
+                        <td class="team-name">Ferrari</td>
+                        <td>Frédéric Vasseur</td>
+                        <td><img class="team-livery" src="../src/images/cars/ferrari.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/williams_racing.png" alt="Williams"></td>
+                        <td class="team-name">Williams</td>
+                        <td>James Vowles</td>
+                        <td><img class="team-livery" src="../src/images/cars/williams.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/kick_sauber.png" alt="Kick Sauber"></td>
+                        <td class="team-name">Kick Sauber</td>
+                        <td>Jonathan Wheatley</td>
+                        <td><img class="team-livery" src="../src/images/cars/kick_sauber.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/aston_martin.png" alt="Aston Martin"></td>
+                        <td class="team-name">Aston Martin</td>
+                        <td>Andy Cowell</td>
+                        <td><img class="team-livery" src="../src/images/cars/aston_martin.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/moneygram_haas.png" alt="Haas F1 Team"></td>
+                        <td class="team-name">Haas F1 Team</td>
+                        <td>Ayao Komatsu</td>
+                        <td><img class="team-livery" src="../src/images/cars/haas.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/bwt_alpine.png" alt="Alpine"></td>
+                        <td class="team-name">Alpine</td>
+                        <td>Flavio Briatore</td>
+                        <td><img class="team-livery" src="../src/images/cars/alpine.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="team-logo" src="../src/team-icon/visa_cashapp_redbull.png" alt="Racing Bulls"></td>
+                        <td class="team-name">Racing Bulls</td>
+                        <td>Alan Permane</td>
+                        <td><img class="team-livery" src="../src/images/cars/racing_bulls.png"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class = "container">
+                <small>© <span id = "year"></span> RacerDex - Project created for the Basics of Web and Mobile Application Development course<br>
+                This site is a fan project and is not affiliated with Formula 1, the FIA ​​or any team. All trademarks belong to their respective owners.</small>
+            </div>
+        </footer>
+        <script src = "../scripts/main.js"></script>
+    </body>
+</html>
